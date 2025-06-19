@@ -32,62 +32,6 @@ A modern, responsive portfolio website built with React, TypeScript, and Vite. S
 - [Node.js](https://nodejs.org/) (v16 or higher recommended)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-### Installation
-
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/your-username/your-portfolio.git
-   cd your-portfolio
-   ```
-
-2. **Install dependencies:**
-   ```sh
-   npm install
-   ```
-   _or, if you use yarn:_
-   ```sh
-   yarn
-   ```
-
-### Running the Development Server
-
-Start the local development server:
-
-```sh
-npm run dev
-```
-_or, with yarn:_
-```sh
-yarn dev
-```
-
-Open your browser and visit [http://localhost:5173](http://localhost:5173) to view the website.
-
-### Building for Production
-
-To build the project for production:
-
-```sh
-npm run build
-```
-_or, with yarn:_
-```sh
-yarn build
-```
-
-The output will be in the `dist` folder.
-
-### Previewing the Production Build
-
-To locally preview the production build:
-
-```sh
-npm run preview
-```
-_or, with yarn:_
-```sh
-yarn preview
-```
 
 ## Project Structure
 
@@ -101,3 +45,53 @@ src/
   main.tsx       # Entry point
   index.css      # Global styles
 ```
+## How to Run
+
+1. **Clone the repository:**
+
+   ```sh
+   git clone https://github.com/DnvLikhitha/Modern-Portfolio-Pixel-Perfect-Design.git
+   cd Modern-Portfolio-Pixel-Perfect-Design
+   ```
+
+2. **Install dependencies:**
+
+   ```sh
+   npm install
+   ```
+   _or, if you use yarn:_
+   ```sh
+   yarn
+   ```
+
+3. **Start the development server:**
+
+   ```sh
+   npm run dev
+   ```
+   _or, with yarn:_
+   ```sh
+   yarn dev
+   ```
+
+4. **Open your browser and visit:**
+
+   [http://localhost:5173](http://localhost:5173)
+
+5. **Build for production:**
+
+   ```sh
+   npm run build
+   ```
+   _or, with yarn:_
+   ```sh
+   yarn build
+   ```
+
+6. **Preview the production build locally:**
+
+   ```sh
+   npm run preview
+   ```
+   _or, with yarn:_
+   ```sh
