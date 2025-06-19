@@ -1,73 +1,113 @@
-# Welcome to your Lovable project
+# Modern Portfolio - Pixel Perfect Design
 
-## Project info
+A modern, responsive portfolio website built with React, TypeScript, and Vite. Showcases digital projects, skills, testimonials, and contact information with a sleek, professional design and dark/light mode support.
 
-**URL**: https://lovable.dev/projects/d3591981-c410-4b27-85b7-590ad38150bd
+## Features
 
-## How can I edit this code?
+- ⚡ Fast, responsive, and accessible design
+- 🌙 Dark and light mode toggle
+- 🖼️ Animated hero section and interactive UI components
+- 💼 Portfolio gallery with project details and tech stack
+- 💬 Client testimonials
+- 📈 Skills and experience sections
+- 📱 Mobile-friendly and SEO optimized
+- 📬 Contact form with validation
 
-There are several ways of editing your application.
+## Tech Stack
 
-**Use Lovable**
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router](https://reactrouter.com/)
+- [Lucide Icons](https://lucide.dev/)
+- [TanStack Query](https://tanstack.com/query/latest)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d3591981-c410-4b27-85b7-590ad38150bd) and start prompting.
+## Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- [Node.js](https://nodejs.org/) (v16 or higher recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-username/your-portfolio.git
+   cd your-portfolio
+   ```
 
-Follow these steps:
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+   _or, if you use yarn:_
+   ```sh
+   yarn
+   ```
+
+### Running the Development Server
+
+Start the local development server:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
+_or, with yarn:_
+```sh
+yarn dev
+```
 
-**Edit a file directly in GitHub**
+Open your browser and visit [http://localhost:5173](http://localhost:5173) to view the website.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Building for Production
 
-**Use GitHub Codespaces**
+To build the project for production:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```sh
+npm run build
+```
+_or, with yarn:_
+```sh
+yarn build
+```
 
-## What technologies are used for this project?
+The output will be in the `dist` folder.
 
-This project is built with:
+### Previewing the Production Build
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+To locally preview the production build:
 
-## How can I deploy this project?
+```sh
+npm run preview
+```
+_or, with yarn:_
+```sh
+yarn preview
+```
 
-Simply open [Lovable](https://lovable.dev/projects/d3591981-c410-4b27-85b7-590ad38150bd) and click on Share -> Publish.
+## Project Structure
 
-## Can I connect a custom domain to my Lovable project?
+```
+src/
+  components/    # Reusable UI components
+  hooks/         # Custom React hooks
+  lib/           # Utility functions
+  pages/         # Page components for routing
+  App.tsx        # Main app component
+  main.tsx       # Entry point
+  index.css      # Global styles
+```
 
-Yes, you can!
+## Deployment
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+You can deploy this site to Vercel, Netlify, or any static hosting provider. Upload the contents of the `dist` folder after running the build command.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## License
+
+[MIT](LICENSE)
+
+---
+
+**Designed and developed by Portfolio Studio.**
