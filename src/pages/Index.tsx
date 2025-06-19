@@ -34,12 +34,19 @@ const Index = () => {
         <main>
           <Hero />
           <About />
+          <ParallaxSection />
           <Services />
+          <FeatureCards />
+          <CarouselSection />
+          <CustomerSection />
+          <StrikingEffect />
+          <RippleDemo />
           <Portfolio />
           <Testimonials />
           <Contact />
         </main>
         <Footer />
+        <ScrollPopup />
       </div>
     </ThemeProvider>
   );
