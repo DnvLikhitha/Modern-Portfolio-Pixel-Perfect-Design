@@ -10,6 +10,13 @@ import Testimonials from '@/components/Testimonials';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import ThemeProvider from '@/components/ThemeProvider';
+import ParallaxSection from '@/components/ParallaxSection';
+import FeatureCards from '@/components/FeatureCards';
+import CarouselSection from '@/components/CarouselSection';
+import CustomerSection from '@/components/CustomerSection';
+import StrikingEffect from '@/components/StrikingEffect';
+import RippleDemo from '@/components/RippleDemo';
+import ScrollPopup from '@/components/ScrollPopup';
 
 const Index = () => {
   const [isLoading, setIsLoading] = useState(true);
