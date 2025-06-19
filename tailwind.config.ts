@@ -161,6 +161,16 @@ export default {
 					'50%': {
 						opacity: '0.5'
 					}
+				},
+				'ripple': {
+					'0%': {
+						transform: 'scale(0)',
+						opacity: '1'
+					},
+					'100%': {
+						transform: 'scale(4)',
+						opacity: '0'
+					}
 				}
 			},
 			animation: {
@@ -174,6 +184,7 @@ export default {
 				'float': 'float 3s ease-in-out infinite',
 				'loader-rotate': 'loader-rotate 1s linear infinite',
 				'loader-pulse': 'loader-pulse 1.5s ease-in-out infinite',
+				'ripple': 'ripple 0.6s ease-out',
 			}
 		}
 	},
