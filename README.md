@@ -2,6 +2,8 @@
 
 A modern, responsive portfolio website built with React, TypeScript, and Vite. Showcases digital projects, skills, testimonials, and contact information with a sleek, professional design and dark/light mode support.
 
+**🔗 Live Demo**: [pixeldust-artisan-forge.lovable.app](https://artisan-web-wizardry.lovable.app/)  
+
 ## Features
 
 - ⚡ Fast, responsive, and accessible design
@@ -99,15 +101,3 @@ src/
   main.tsx       # Entry point
   index.css      # Global styles
 ```
-
-## Deployment
-
-You can deploy this site to Vercel, Netlify, or any static hosting provider. Upload the contents of the `dist` folder after running the build command.
-
-## License
-
-[MIT](LICENSE)
-
----
-
-**Designed and developed by Portfolio Studio.**
